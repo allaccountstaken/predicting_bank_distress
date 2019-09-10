@@ -45,6 +45,15 @@ def plot_precision_recall(precisions, recalls, thresholds):
     Nothing
 
     """
+    from pylab import mpl, plt
+    import matplotlib.pyplot as plt
+    import numpy as np
+    plt.style.use('seaborn')
+    mpl.rcParams['font.family'] = 'arial'
+    
+    np.random.seed(1000)
+    np.set_printoptions(suppress=True, precision=4)
+    
     plt.plot(thresholds, precisions[: -1], 'b--', label='Precision')
     plt.plot(thresholds, recalls[: -1], 'g-', label='Recall')
     plt.xlabel('Threshold')
@@ -62,6 +71,14 @@ def plot_roc_curve(fpr, tpr, label=None):
     Returns:
     Nothing
     """
+    
+    from pylab import mpl, plt
+    import matplotlib.pyplot as plt
+    import numpy as np
+    plt.style.use('seaborn')
+    mpl.rcParams['font.family'] = 'arial'
+    np.random.seed(1000)
+    np.set_printoptions(suppress=True, precision=4)
     
     plt.plot(fpr, tpr, linewidth=2, label=label)
     plt.plot([0,1], [0,1], 'k--')
