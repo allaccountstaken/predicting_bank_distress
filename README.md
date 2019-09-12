@@ -26,7 +26,7 @@
 4) CAMELS time series data from 2009-Q4 to 2010-Q3
 5) Validation datasets from 2010-Q4 to 2012Q4
 6) Python client to connect to SOAP server and pull more data
-7) basic_model used on raw data before over-sampling with SMOTE
+7) Deck of slides that gives a brief presentation of this research
 8) PDF file with CALL report example
 9) custom_functions.py file with some additional functions 
 
