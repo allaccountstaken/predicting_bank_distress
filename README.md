@@ -17,5 +17,13 @@
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Outofsample_recall.png)
 
 ## Also in this repository you will find:
-1) CSV files with banks' selected financials
-2) CSV files with CAMELS dimensions calculated from the selected financials
+1) Selected financials provided by healthy banks as of 2010-Q3
+2) Selected financials provided by failed banks as of 2010-Q3
+3) CAMELS dimensions calculated from these selected financials
+4) CAMELS time series data from 2009-Q4 to 2010-Q3
+5) Validation datasets from 2010-Q4 to 2012Q4
+6) Python client to connect to SOAP server and pull more data
+7) basic_model used on raw data before over-sampling with SMOTE
+8) PDF file with CALL report example
+9) custom_functions.py file with some additional functions 
+
