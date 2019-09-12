@@ -1,7 +1,7 @@
-# US Banks Distress Early Warning  System
-## This classification is based on machine learning of distress features captured by CALL reports
+# Insured Banks Distress Early Warning System
+## This project aims to predict insured bank's financial distress one quarter prior to failure with 100% accuracy measured by recall score. Predictions are based on machine learning of distress features captured by CALL reports.
 
-### Number of failing banks increased sharply in 2009-2012 what gave hope of modeling these rare events
+### Number of failing banks increased sharply in 2009-2012 what allowed training models on real data with SMOTE samling:
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Hist%20number%20of%20failed%20banks.png)
 
 ### CAMELS framework was used for building risk profiles. Healthy bank will not exceed risk capacity:
