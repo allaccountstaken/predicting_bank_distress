@@ -1,5 +1,5 @@
 # Insured Banks Distress Early Warning System
-## This project aims to predict insured bank's financial distress one quarter prior to failure with 100% accuracy measured by recall score. Predictions are based on machine learning of distress features captured by CALL reports. Logistic regression was found to work the best for out-of-sample forecast.
+## This project aims to predict insured bank's financial distress one quarter prior to failure with maximum accuracy difined as recall score. Predictions are based on machine learning of distress features possibly captured in quarterly financial reports(FDIC CALL). Logistic regression was found to work the best for out-of-sample forecast.
 
 #### Number of failing banks increased sharply in 2009-2012 what allowed training models on real data with SMOTE samling:
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Hist%20number%20of%20failed%20banks.png)
