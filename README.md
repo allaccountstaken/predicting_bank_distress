@@ -1,7 +1,7 @@
 # Bank Distress Early Warning System
 ## This project aims to predict out-of-sample bank's financial distress one quarter prior to its failure with maximum accuracy defined as recall score (TP/P). Predictions will be based on machine learning of distress features that are possibly captured by 25,000 quarterly financial reports (FDIC CALL reports). Logistic regression was found to work best for out-of-sample forecast.
 
-#### In normal, non-stressed environment it is very hard to predict failing banks as they are an anomaly:
+#### In normal, non-stressed environment it is very hard to predict failing banks as they are very rare, i.e. anomaly and hence create a profile of what it is to be a "normal" bank:
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Healthy%20and%20Failed%20banks.png)
 
 #### Number of failing banks increased sharply in 2009-2012 what allowed training models on real data with SMOTE sampling:
