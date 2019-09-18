@@ -7,7 +7,7 @@
 #### Number of failing banks increased sharply in 2009-2012 what allowed training models on real data with SMOTE sampling:
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Hist%20number%20of%20failed%20banks.png)
 
-#### CAMELS framework was used for building risk profiles. Healthy bank will not exceed risk capacity:
+#### CAMELS framework was used for building banks' profiles. Healthy bank will not exceed risk capacity:
 ![](https://github.com/allaccountstaken/predicting_bank_distress/blob/master/images/Healthy%20bank%20CAMELS%20profile.png)
 
 #### Failing bank will likely exceed capacity along Assets, Earnings, and Liquidity risk dimensions:
