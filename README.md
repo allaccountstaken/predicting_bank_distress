@@ -1,4 +1,4 @@
-*Note: ideally consider using Difference Equations, i.e. try to capture information about the state of the system at the time of the kth measurement...*
+*Note: need to focus on or recurrence relation; ideally consider using difference equations and try to capture information about the state of the system at the time of the kth measurement...*
 
 
 # Banks Distress Early Warning System
