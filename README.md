@@ -1,3 +1,6 @@
+*Note: ideally consider using Difference Equations, i.e. try to capture information about the state of the system at the time of the kth measurement...*
+
+
 # Banks Distress Early Warning System
 ## This project aims to predict out-of-sample financial distress of FDIC regulated banks one quarter prior to their failure with maximum accuracy defined as recall score (TP/P). Predictions will be based on training on distress features that are possibly captured by ~ 25,000 quarterly financial reports (CALL reports). Logistic regression was found to work best for out-of-sample forecast.
 
